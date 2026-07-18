@@ -4,7 +4,7 @@ spring:
     redis:
       host: localhost # 连接Redis的服务地址
       port: 6379 # 连接Redis的服务端口
-      password:  # 认证密码
+      password: redis # 认证密码
 
   # MySQL的配置
   datasource:
